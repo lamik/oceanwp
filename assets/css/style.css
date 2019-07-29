@@ -1572,10 +1572,10 @@ h6 {
 }
 
 .theme-heading .text::before {
-  content: '\f105';
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  font-weight: 900;
   font-size: 18px;
-  font-weight: 600;
   color: #13aff0;
   padding-right: 6px;
 }
@@ -1884,7 +1884,7 @@ input[type=checkbox]:checked:before {
   vertical-align: middle;
   width: 16px;
   line-height: 14px;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6356,7 +6356,7 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 }
 
 #mobile-fullscreen ul li .dropdown-toggle:before {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   content: '+';
 }
 
@@ -7904,7 +7904,7 @@ time.published i {
 }
 
 .theme-select:after {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   content: '\f107';
   position: absolute;
   right: 0;
@@ -9095,7 +9095,7 @@ a.sidr-class-toggle-sidr-close i {
 }
 
 .sidr-class-dropdown-toggle:before {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   content: '+';
   font-size: 20px;
   position: absolute;
@@ -9113,7 +9113,7 @@ a.sidr-class-toggle-sidr-close i {
 }
 
 .sidr-class-dropdown-menu ul a:before {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   content: '\f105';
   display: inline-block;
   margin: 0 10px;

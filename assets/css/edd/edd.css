@@ -306,7 +306,7 @@
 
 #edd_download_pagination .page-numbers.next:after, #edd_download_pagination .page-numbers.prev:after {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal 900 14px/1 'Font Awesome 5 Free';
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
