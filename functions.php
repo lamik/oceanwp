@@ -387,7 +387,7 @@ final class OCEANWP_Theme_Class {
 		wp_deregister_style( 'fontawesome' );
 
 		// Load font awesome style
-		wp_enqueue_style( 'font-awesome', $dir .'third/font-awesome.min.css', false, '4.7.0' );
+		wp_enqueue_style( 'font-awesome', OCEANWP_THEME_URI .'/assets/fontawesome/css/all.min.css', false, '5.9.0' );
 
 		// Register simple line icons style
 		wp_enqueue_style( 'simple-line-icons', $dir .'third/simple-line-icons.min.css', false, '2.4.0' );
