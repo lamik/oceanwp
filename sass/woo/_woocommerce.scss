@@ -1209,6 +1209,7 @@
 				&:before {
 					display: inline-block;
 					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
 					font-size: inherit;
 					text-rendering: auto;
 					display: block;
@@ -2453,7 +2454,8 @@ ul {
 						text-rendering: auto;
 						display: inline-block;
 						font-size: inherit;
-						content: '\f10c';
+						font-weight: 900;
+						content: '\f111';
 						color: #333;
 						margin-right: 10px;
 						@include transition( color .2s ease );
@@ -2842,6 +2844,7 @@ p {
 .return-to-shop .button.wc-backward:before {
 	@include font-awesome();
 	content: '\f104';
+	font-weight: 900 !important;
 	margin-right: 8px;
 }
 #site-navigation-wrap .dropdown-menu > li > a.wcmenucart {
@@ -2870,6 +2873,7 @@ del .amount {
 		b {
 			@include font-awesome();
 			font-size: 15px;
+			font-weight: 900;
 			line-height: 40px;
 			text-align: center;
 			&:before {
@@ -3381,7 +3385,8 @@ form.checkout {
 						text-rendering: auto;
 						display: inline-block;
 						font-size: inherit;
-						content: '\f10c';
+						content: '\f111';
+						font-weight: 900;
 						color: #333;
 						margin-right: 10px;
 						-webkit-transition: color .2s ease;
