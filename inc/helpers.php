@@ -3787,11 +3787,11 @@ if ( ! function_exists( 'oceanwp_social_options' ) ) {
 			),
 			'facebook' => array(
 				'label' => esc_html__( 'Facebook', 'oceanwp' ),
-				'icon_class' => 'fab fa-facebook',
+				'icon_class' => 'fab fa-facebook-f',
 			),
 			'googleplus' => array(
 				'label' => esc_html__( 'Google Plus', 'oceanwp' ),
-				'icon_class' => 'fab fa-google-plus',
+				'icon_class' => 'fab fa-google-plus-g',
 			),
 			'pinterest'  => array(
 				'label' => esc_html__( 'Pinterest', 'oceanwp' ),
